@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,700&family=Nunito&family=Playfair+Display:wght@700&family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: transparent;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+
+}
+body{
+    color:white;
+    background-color: rgb(30,30,30);
+    overflow:hidden;
+    overflow-y:scroll;
+}
+.active{
+    color:aqua;
+    border-bottom: 2px solid aqua;
+}

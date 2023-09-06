@@ -1,0 +1,43 @@
+#works{
+    width:100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    text-align: center;
+    gap:2rem;
+}
+.myPortfolio{
+    font-size: 2rem;
+    font-weight:2rem;
+}
+.workDes{
+    width:45rem;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    font-weight: 1rem;
+}
+.workimgs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+}
+.workimg{
+    width:15rem;
+    height:15rem;
+}
+@media screen and (max-width:760px){
+    .workDes{
+        width:32rem;
+    }
+}
+@media screen and (max-width:600px){
+    .workDes{
+        width:25rem;
+    }
+}

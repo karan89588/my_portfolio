@@ -1,0 +1,80 @@
+#skills{
+    width:100vw;
+    max-width: 45rem;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:8rem auto;
+    gap:1rem;
+}
+.whatido{
+    font-size: 2rem;
+    font-weight:2rem;
+}
+.experience{
+    font-size: 1.2rem;
+    font-weight:1rem;
+    flex-wrap: wrap;
+    margin:2rem auto;
+}
+.skillbars{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    width:45rem;
+}
+.skillbar{
+    width:45rem;
+    height:8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:2rem;
+    background-color: rgb(63, 60, 60);
+    padding:1rem;
+    border-radius:2rem;
+}
+.skillbarText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.skillDes{
+    flex-wrap: wrap;
+}
+.skillbarimg{
+    height:4rem;
+    width:4rem;
+    object-fit: cover;
+}
+@media screen and (max-width:760px){
+    .skillbars{
+        width:32rem;
+    }
+    .skillbar{
+        width:32rem;
+        height:8rem;
+    }
+    .skills{
+        width:32rem;
+    }
+}
+@media screen and (max-width:600px){
+    .skillbars{
+        width:25rem;
+    }
+    .skillbar{
+        width:25rem;
+        height:10rem;
+    }
+    .skills{
+        width:25rem;
+    }
+}
